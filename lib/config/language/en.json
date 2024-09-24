@@ -1,0 +1,255 @@
+{
+  "onBoarding": {
+    "welcomeMessage": "Bring Happiness LocalFood with DeliveryPro",
+    "description": "We make your deliveries faster and easier. Order what you need, and we'll take care of the rest.",
+    "get_started": "Get Started",
+    "skip_tour": "Skip Tour",
+    "already_have": "Already have account?",
+    "login": "Login"
+  },
+  "loginScreen": {
+    "welcomeMessage": "Welcome Back!",
+    "description": "Please enter your details to log in to your account.",
+    "email": "Email",
+    "email_hint": "Enter your email",
+    "password": "Password",
+    "password_hint": "Enter your password",
+    "login": "Login",
+    "forgot_password": "Forgot Password?",
+    "register": "Register",
+    "dont_have_account": "Don't have an account?",
+    "create_account": "Create Account"
+  },
+  "registerScreen": {
+    "welcomeMessage": "Create a New Account",
+    "description": "Please enter your details to create an account.",
+    "name": "Name",
+    "name_hint": "Enter your name",
+    "phone": "Phone",
+    "phone_hint": "Enter your phone",
+    "email": "Email",
+    "email_hint": "Enter your email",
+    "password": "Password",
+    "password_hint": "Enter your password",
+    "confirm_password": "Confirm Password",
+    "confirm_password_hint": "Confirm your password",
+    "register": "Register",
+    "select_area": "Select Area",
+    "select_government": "Select Government"
+  },
+  "mainLayout": {
+    "appBar_title": "Delivering to",
+    "great_value_deals": "Great value deals",
+    "view_all": "View All",
+    "search_order": "What do you want to order?",
+    "all_restaurants": "All Restaurants",
+    "governments": {
+      "cairo": {
+        "areas": {
+          "nasr_city": "Nasr City",
+          "maadi": "Maadi",
+          "heliopolis": "Heliopolis",
+          "new_cairo": "New Cairo",
+          "zamalek": "Zamalek"
+        }
+      },
+      "alexandria": {
+        "areas": {
+          "sidi_gaber": "Sidi Gaber",
+          "al_montazah": "Al Montazah",
+          "smouha": "Smouha",
+          "stanley": "Stanley",
+          "gleem": "Gleem"
+        }
+      },
+      "giza": {
+        "areas": {
+          "6th_of_october": "6th of October",
+          "sheikh_zayed": "Sheikh Zayed",
+          "haram": "Haram",
+          "dokki": "Dokki",
+          "mohandessin": "Mohandessin"
+        }
+      },
+      "dakahlia": {
+        "areas": {
+          "mansoura": "Mansoura",
+          "talkha": "Talkha",
+          "mit_ghamr": "Mit Ghamr",
+          "belqas": "Belqas",
+          "sherbin": "Sherbin"
+        }
+      },
+      "aswan": {
+        "areas": {
+          "aswan_city": "Aswan City",
+          "daraw": "Daraw",
+          "edfu": "Edfu",
+          "kom_ombo": "Kom Ombo",
+          "nasr": "Nasr"
+        }
+      },
+      "luxor": {
+        "areas": {
+          "luxor_city": "Luxor City",
+          "armant": "Armant",
+          "esna": "Esna",
+          "al_bayadiyah": "Al Bayadiyah",
+          "qurna": "Qurna"
+        }
+      },
+      "red_sea": {
+        "areas": {
+          "hurghada": "Hurghada",
+          "safaga": "Safaga",
+          "el_gouna": "El Gouna",
+          "marsa_alam": "Marsa Alam",
+          "quseer": "Quseer"
+        }
+      },
+      "suez": {
+        "areas": {
+          "suez_city": "Suez City",
+          "ain_sokhna": "Ain Sokhna",
+          "al_adabiya": "Al Adabiya",
+          "port_tawfik": "Port Tawfik",
+          "al_ganayen": "Al Ganayen"
+        }
+      },
+      "ismailia": {
+        "areas": {
+          "ismailia_city": "Ismailia City",
+          "fayed": "Fayed",
+          "abu_sultan": "Abu Sultan",
+          "abu_sweir": "Abu Sweir",
+          "al_qantara": "Al Qantara"
+        }
+      },
+      "fayoum": {
+        "areas": {
+          "fayoum_city": "Fayoum City",
+          "ibshway": "Ibshway",
+          "sinnuris": "Sinnuris",
+          "tamiya": "Tamiya",
+          "youssef_al_seddik": "Youssef Al Seddik"
+        }
+      },
+      "beni_suef": {
+        "areas": {
+          "beni_suef_city": "Beni Suef City",
+          "al_wasta": "Al Wasta",
+          "nasser": "Nasser",
+          "biba": "Biba",
+          "somosta": "Somosta"
+        }
+      },
+      "minya": {
+        "areas": {
+          "minya_city": "Minya City",
+          "mallawi": "Mallawi",
+          "beni_mazar": "Beni Mazar",
+          "samalut": "Samalut",
+          "abu_qurqas": "Abu Qurqas"
+        }
+      },
+      "assiut": {
+        "areas": {
+          "assiut_city": "Assiut City",
+          "manfalut": "Manfalut",
+          "abnoub": "Abnoub",
+          "abu_tig": "Abu Tig",
+          "dayrout": "Dayrout"
+        }
+      },
+      "sohag": {
+        "areas": {
+          "sohag_city": "Sohag City",
+          "tahta": "Tahta",
+          "girga": "Girga",
+          "el_balyana": "El Balyana",
+          "akhmim": "Akhmim"
+        }
+      },
+      "qena": {
+        "areas": {
+          "qena_city": "Qena City",
+          "nag_hammadi": "Nag Hammadi",
+          "qus": "Qus",
+          "luxor": "Luxor",
+          "dishna": "Dishna"
+        }
+      },
+      "north_sinai": {
+        "areas": {
+          "arish": "Arish",
+          "sheikh_zuweid": "Sheikh Zuweid",
+          "rafah": "Rafah",
+          "bir_al_abed": "Bir al-Abed",
+          "nakhl": "Nakhl"
+        }
+      },
+      "south_sinai": {
+        "areas": {
+          "sharm_el_sheikh": "Sharm El Sheikh",
+          "dahab": "Dahab",
+          "nuwieba": "Nuwieba",
+          "taba": "Taba",
+          "saint_catherine": "Saint Catherine"
+        }
+      },
+      "matruh": {
+        "areas": {
+          "marsa_matruh": "Marsa Matruh",
+          "sallum": "Sallum",
+          "siwa": "Siwa",
+          "el_alamein": "El Alamein",
+          "dabaa": "Dabaa"
+        }
+      },
+      "beheira": {
+        "areas": {
+          "damanhour": "Damanhour",
+          "rashid": "Rashid",
+          "kafr_el_dawwar": "Kafr El Dawwar",
+          "edku": "Edku",
+          "kom_hamada": "Kom Hamada"
+        }
+      },
+      "kafr_el_sheikh": {
+        "areas": {
+          "kafr_el_sheikh_city": "Kafr El Sheikh City",
+          "desouk": "Desouk",
+          "baltim": "Baltim",
+          "fouh": "Fouh",
+          "qellen": "Qellen"
+        }
+      },
+      "damietta": {
+        "areas": {
+          "damietta_city": "Damietta City",
+          "new_damietta": "New Damietta",
+          "ras_el_bar": "Ras El Bar",
+          "kafr_saad": "Kafr Saad",
+          "zarqa": "Zarqa"
+        }
+      },
+      "sharqia": {
+        "areas": {
+          "zagazig": "Zagazig",
+          "belbeis": "Belbeis",
+          "abu_hammad": "Abu Hammad",
+          "minya_al_qamh": "Minya al-Qamh",
+          "10th_of_ramadan_city": "10th of Ramadan City"
+        }
+      },
+      "monufia": {
+        "areas": {
+          "shibin_el_kom": "Shibin El Kom",
+          "sadat_city": "Sadat City",
+          "menouf": "Menouf",
+          "ashmoun": "Ashmoun"
+        }
+      }
+    }
+  }
+}
