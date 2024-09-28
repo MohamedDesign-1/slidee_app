@@ -21,7 +21,7 @@ class CustomBotton extends StatelessWidget {
       ),
       child: Center(
         child: Text(text,
-            style: getMediumStyle(color: ColorManager.white, fontSize: 14.sp)),
+            style: getMediumStyle(color: ColorManager.white, fontSize: 12.sp)),
       ),
     );
   }

@@ -1,6 +1,6 @@
-
 class AppConstants {
-
+  static const String staticTestImage =
+      'https://img.freepik.com/free-photo/androgynous-avatar-non-binary-queer-person_23-2151100270.jpg?size=338&ext=jpg&ga=GA1.1.2008272138.1727136000&semt=ais_hybrid';
   static const String languagePath = 'lib/config/language';
 
   //todo: all text here
@@ -22,7 +22,6 @@ class AppConstants {
   static const String warning = 'Warning';
   static const String info = 'Info';
 
-
   // todo: Form hint text
   static const String name = 'Name';
   static const String email = 'Email';
@@ -32,9 +31,12 @@ class AppConstants {
 
   // todo: Onboarding text
   static const String share = 'Sharing your idea';
-  static const String shareDescription = 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.';
+  static const String shareDescription =
+      'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.';
   static const String connectWith = 'Connect with Community';
-  static const String connectWithDescription = 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.';
+  static const String connectWithDescription =
+      'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.';
   static const String exploreSlidee = 'Explore in Slidee App';
-  static const String exploreSlideeDescription = 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.';
+  static const String exploreSlideeDescription =
+      'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.';
 }

@@ -26,14 +26,16 @@ class CustomElevatedButton extends StatelessWidget {
           fixedSize: WidgetStateProperty.all(Size(double.infinity.w, 40.h)),
           elevation: WidgetStateProperty.all(0),
         ),
-        child: Row(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            Text( title!,
-              style: getBoldStyle(color: ColorManager.white, fontSize: 14.sp),),
-            SizedBox(width: 8.w,),
-            Icon(icon, color: ColorManager.white, size: 16.sp,)
-          ],
+        child: Center(
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Text( title!,
+                style: getBoldStyle(color: ColorManager.white, fontSize: 14.sp),),
+              SizedBox(width: 8.w,),
+              Icon(icon, color: ColorManager.white, size: 16.sp,)
+            ],
+          ),
         ),
       ),
     );

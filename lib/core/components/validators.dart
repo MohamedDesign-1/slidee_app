@@ -1,3 +1,5 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
+
 class AppValidators {
   AppValidators._();
 
@@ -66,4 +68,50 @@ class AppValidators {
 
     return null;
   }
+
+  // Validate Bio
+  static String? validateBio(String? value) {
+    if (value == null || value.trim().isEmpty) {
+      return 'Please enter your bio';
+    }
+    return null;
+  }
+
+  static String? validateUsername(String? value) {
+    if (value == null || value.isEmpty) {
+      return 'Username is required';
+    }
+    return null;
+  }
+
+  static String? validateDisplayName(String? value) {
+    if (value == null || value.trim().isEmpty) {
+      return 'Please enter your display name';
+    }
+    return null;
+  }
+
+  static Future<bool> isUsernameUnique(String username) async {
+    try {
+      final usersCollection = FirebaseFirestore.instance.collection('users');
+      final snapshot = await usersCollection
+          .get();  // Get all users first
+      for (var userDoc in snapshot.docs) {
+        // Access the profile collection within each user
+        final profileSnapshot = await userDoc.reference
+            .collection('profile')
+            .where('username', isEqualTo: username)
+            .get();
+        if (profileSnapshot.docs.isNotEmpty) {
+          print('Username already exists in user: ${userDoc.id}');
+          return false;
+        }
+      }
+      return true;  // If no match is found, the username is unique.
+    } catch (e) {
+      print('Error checking username uniqueness: $e');
+      return false;
+    }
+  }
+
 }

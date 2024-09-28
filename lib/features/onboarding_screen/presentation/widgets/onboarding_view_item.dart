@@ -69,7 +69,6 @@ class OnboardingViewItem extends StatelessWidget {
               titleTextStyle: getBoldStyle(color: ColorManager.secondaryPrimary, fontSize: 24.sp),
               bodyTextStyle: getRegularStyle(color: ColorManager.secondaryPrimary, fontSize: 14.sp),
             imageFlex: 3,
-
           ),
         ),
       ],
